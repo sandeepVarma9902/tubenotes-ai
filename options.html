@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>TubeNotes AI — Settings</title>
+<style>
+  body { font: 14px/1.6 system-ui, sans-serif; background: #111827; color: #e5e7eb; margin: 0; padding: 32px; max-width: 560px; }
+  h1 { color: #fff; font-size: 20px; }
+  label { display: block; margin: 18px 0 6px; font-weight: 600; }
+  input[type=text], input[type=password], select { width: 100%; box-sizing: border-box; padding: 10px; border-radius: 8px;
+    border: 1px solid #374151; background: #1f2937; color: #e5e7eb; font-size: 14px; }
+  .help { color: #9ca3af; font-size: 12.5px; margin-top: 6px; }
+  .help a { color: #818cf8; }
+  .row { display: flex; align-items: center; gap: 10px; margin-top: 18px; }
+  button { padding: 10px 18px; border: none; border-radius: 8px; background: #4f46e5; color: #fff;
+    font: 600 14px system-ui; cursor: pointer; }
+  button:hover { background: #4338ca; }
+  button.danger { background: #374151; }
+  #saved { color: #4ade80; margin-left: 12px; opacity: 0; transition: opacity .3s; }
+  input[type=checkbox] { width: 18px; height: 18px; accent-color: #4f46e5; }
+</style>
+</head>
+<body>
+  <h1>✎ TubeNotes AI — Settings</h1>
+
+  <label for="apiKey">Gemini API key</label>
+  <input type="password" id="apiKey" placeholder="Paste your key here" autocomplete="off">
+  <div class="help">TubeNotes AI analyses videos with Google's Gemini API using <b>your own free key</b> —
+    nothing is sent anywhere until you add one. Get a free key (no credit card) at
+    <a href="https://aistudio.google.com/apikey" target="_blank">aistudio.google.com/apikey</a>,
+    then paste it here. The key is stored only in this browser.</div>
+
+  <label for="model">AI model</label>
+  <select id="model">
+    <option value="gemini-2.0-flash">gemini-2.0-flash (recommended, free tier)</option>
+    <option value="gemini-2.5-flash">gemini-2.5-flash</option>
+    <option value="gemini-2.0-flash-lite">gemini-2.0-flash-lite (fastest)</option>
+  </select>
+
+  <div class="row">
+    <input type="checkbox" id="auto">
+    <label for="auto" style="margin:0">Analyse videos automatically in the background when I open them</label>
+  </div>
+
+  <div class="row">
+    <button id="save">Save</button><span id="saved">Saved ✓</span>
+  </div>
+
+  <div class="row" style="margin-top:28px">
+    <button id="clear" class="danger">Clear all cached guides &amp; handbooks</button>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>

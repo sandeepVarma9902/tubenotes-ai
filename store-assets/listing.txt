@@ -1,0 +1,40 @@
+STORE LISTING — TubeNotes AI
+
+Name: TubeNotes AI — YouTube Notes, Guides & Handbooks
+Category: Productivity
+Language: English
+
+SHORT DESCRIPTION (132 max):
+Timestamped YouTube notes + AI Quick Guides & Handbooks, generated quietly in the background while you watch.
+
+DETAILED DESCRIPTION:
+
+TubeNotes AI turns every YouTube video into study material — without interrupting your flow.
+
+✎ TIMESTAMPED NOTES
+Click the floating ✎ button on any video to jot notes. Each note grabs the current timestamp automatically — click any timestamp later to jump straight back to that moment. Notes save per video, on your device, and export to Markdown.
+
+✦ QUICK GUIDE — generated in the background
+The moment you open a video, TubeNotes AI reads its captions and prepares a Quick Guide: a one-line summary, key takeaways with timestamps, a chapter breakdown, and an honest "worth your time?" verdict. A subtle dot on the button tells you when it's ready. Zero popups, zero interruptions.
+
+📖 HANDBOOK — the full reference
+Need more than a summary? The Handbook turns the video into a structured reference: overview, core concepts, step-by-step walkthrough, worked examples, common mistakes, FAQ and a cheat sheet — all timestamped back to the video.
+
+🔑 YOUR KEY, YOUR DATA
+Analysis runs on Google's Gemini API using your own free API key (free at aistudio.google.com, no credit card). Notes, guides and your key live only in your browser. No accounts, no tracking, no servers.
+
+Perfect for students, researchers, developers learning from tutorials, and anyone who watches to learn.
+
+HOW IT WORKS
+1. Install, open Settings, paste a free Gemini API key (2 minutes, one time).
+2. Open any YouTube video — the guide and handbook prepare themselves in the background.
+3. Take timestamped notes while you watch. Export anytime.
+
+PRIVACY POLICY URL:
+https://github.com/sandeepvarma9902/tubenotes-ai/blob/main/PRIVACY.md
+
+SCREENSHOTS (1280x800):
+- shot-notes-1280x800.png — notes panel on a video
+- shot-guide-1280x800.png — Quick Guide tab
+PROMO TILE (440x280):
+- tile-440x280.png
